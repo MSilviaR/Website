@@ -1,0 +1,23 @@
+﻿.formulario{
+	position: relative;
+	width:396px;
+}
+
+.parteformulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:cursive;
+}
+
+.botonesformulario{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+p.texto{
+    font-family: cursive;
+    color: darkcyan;
+}
+

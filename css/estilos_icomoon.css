@@ -1,0 +1,63 @@
+* {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+p {
+	margin:0;
+	padding:0;
+}
+
+ul,ul li {
+	margin: 0;
+	padding:0;
+	list-style:none;
+}
+
+.button{
+    margin: 10px;
+    color:black;
+}
+
+.button span.icon-ipod{
+	background:gray;
+    color:white;
+	border-radius:10px 10px;
+    padding: 10px;
+}
+
+.button span.icon-ipod:hover{
+    background: lightblue;
+}
+
+.button span.icon-camera2{
+	border-radius:10px 10px;
+    padding: 10px;        
+}
+
+.button span.icon-camera2:hover{
+    background: aquamarine;
+}
+
+.button span.icon-pacman{
+    background: antiquewhite;
+    color:darkolivegreen;
+    border-radius:10px 10px;
+    padding: 10px;
+}
+
+.button span.icon-pacman:hover{
+    background: yellow;
+}
+
+.button span.icon-hipster{
+    background: coral;
+    color:cornsilk;
+    border-radius:10px 10px;
+    padding: 10px;    
+}
+
+.button span.icon-hipster:hover{
+    background: lightpink;
+}

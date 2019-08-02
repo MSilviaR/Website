@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta content="text/html;" charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="../css/estilos_cabecera.css" title="style" />
+        <link rel="stylesheet" type="text/css" href="../css/estilos_footer.css" title="style" />
+        <link rel="stylesheet" type="text/css" href="../css/estilos_formulario.css" title="style" />        
+        <link rel="stylesheet" type="text/css" href="../style.css">
+        <link rel="stylesheet" type="text/css" href="../css/estilos_icomoon.css">
+        <link rel="stylesheet" href="../icomoon/fonts/icon-font-style.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+        <title>Formulario</title>
+    </head>
+
+    <body>
+        <div class="padredetodos">
+            <header>
+                <div class="titulos">
+                    <h1>Libros Fantásticos...</h1>
+                    <h2>...y dónde encontrarlos</h2>
+                </div>
+                
+                <nav class="menu">
+                    <li class="menu-item"><a href="./filtros.html"><span class="icon-camera2"></span>Filtros</a></li>
+                    <li class="menu-item"><a href="formulario.html"><span class="icon-hipster"></span>Formulario</a></li>
+                    <li class="menu-item"><a href="./portfolio.html"><span class="icon-film"></span>Portfolio</a></li>
+                    <li class="menu-item"><a href="../index.html"><span class="icon-headphones"></span>Inicio</a></li>
+                </nav>
+            </header>
+            <div class="formulario">
+                <form action="http://www.librosfantasticos.es/contactar.php" method="post" align="left">
+                    <ul class="formaformulario">
+                        <li class="parteformulario">
+                            Nombre: <input id="nombre" type="text" name="usuario" value=""/>
+                        </li>
+                        <li class="parteformulario">
+                            Apellidos: <input id="apellidos" type="text" name="apellidos" value=""/>
+                        </li>
+                        <li class="parteformulario">
+                            Mensaje: <label for="mensaje"></label>
+                            <textarea id="mensaje" name="mensaje" cols="45" rows="10"></textarea>
+                        </li>
+                        <li class="parteformulario">
+                            Vía de contacto: 
+
+                            <p>
+                                <label for="correo">
+                                    <input id="correo" class="opcion" type="radio" name="via" value="" checked="checked"/>
+                                    Correo
+                                </label>
+                            </p>
+                            <p><input class="opcion" type="radio" name="via" value=""/>SMS</p>
+                            <p><input class="opcion" type="radio" name="via" value=""/>Facebook</p>
+                        </li>
+                    <div class="botonesformulario">
+                        <input id="enviar" type="submit" name="enviar" value="Enviar"/>
+                        <input id="limpiar" type="reset" name="limpiar" value="Limpiar"/>
+                    </div>
+                    </ul>
+                </form>		
+            </div>
+
+            <footer>
+                <p> 
+                    © 2018 www.librosfantasticos.es
+                </p>
+            </footer>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,46 @@
+img{
+	width: 20em;
+	height: 20em;
+    display: inline-block;
+    padding: 5%;
+    margin-bottom: 5em;
+}
+
+a img{
+    width: 2px;
+    height: 2px;
+}
+
+.large{
+    width: 50%;
+    height: 50%;
+    filter: drop-shadow(50px 12px 4px white);
+    background: linear-gradient(to top, black, red);
+}
+
+.invert{
+    transition: all 2s linear;
+}
+
+.invert:hover{
+    filter: invert(100%);
+    transform: rotate(360deg);
+}
+
+.grayscale{
+    filter: grayscale(100%);
+    transition: all 3s linear;
+}
+
+.grayscale:hover{
+    transform:translate(50px,50px);
+}
+
+.huerotate{
+    filter: hue-rotate(260deg);
+    transition: all 5s ease;
+}
+
+.huerotate:hover{
+    transform: scale(2,2);
+}
